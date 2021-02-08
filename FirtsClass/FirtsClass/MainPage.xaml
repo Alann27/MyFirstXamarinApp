@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FirtsClass.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Primera clase de Xamarin" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Label Text="Esta es la primera aplicación desarrollada con Xamarin" FontSize="Title" Padding="30,10,30,10" TextColor="Gray" BackgroundColor="LightGreen" />
+        <Label Text="Clase impartida por Rendy del Rosario" FontSize="30" Padding="30,0,30,0" TextColor="Gold" BackgroundColor="RoyalBlue" FontAttributes="Italic"/>
+        <Label Text="Práctica #01" TextColor="Gold" FontSize="25" FontAttributes="Bold" BackgroundColor="Gray" Padding="30,0,30,0"/>
+        <Label Text="La próxima clase es el sábado 09/02/2021" FontSize="11" FontAttributes="Bold" TextColor="Black" Padding="30,0,30,0"/>
+        <Label FontSize="24" Padding="30,24,30,0">
+            <Label.FormattedText>
+                <FormattedString>
+                    <FormattedString.Spans>
+                        <Span Text="Aprende más en "/>
+                        <Span Text="https://aka.ms/xamarin-quickstart" FontAttributes="Bold"/>
+                    </FormattedString.Spans>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+
+    </StackLayout>
+
+</ContentPage>
